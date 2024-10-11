@@ -1,0 +1,99 @@
+<html>
+<head>
+<style>
+ .portfolio-container {
+ display:flex;
+ flex-direction: column;
+ padding:20px;
+ }
+ /*porfile section*/
+ .profile-section
+ display:flex;
+ alighn-items:centre;
+ margin-bottom:30px;
+ }
+ .bio{
+ margin-left:20px;
+ }
+ .bio h2{
+ font-size: 24px;
+ margin-bottom:10px;
+ }
+ /*skills section*/
+ .skills-section{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+ }
+ .skill {
+  background-color:#3498db;
+  color:white;
+  padding: 10px 15px;
+  border-radius: 5px;
+ }
+ 
+
+ .projects-section {
+  disaplay: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card{
+ flex-basis: 30%;
+ background-color: #f4f4f4;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgb(0,0,0,0.1);  
+ 
+ }
+ 
+ 
+ @media (max-width:768px) {
+ .profile-section{
+ flex-direction:column;
+ }
+ 
+ .project-card{
+ flex-basis: 100%;
+ }
+ }
+ 
+ 
+ </style> 
+</head>
+
+<body>
+ <!--profile section -->
+ <div class="Profile-container">
+ 
+ <div class="Profile-section">
+ <h1> Welcome </h1>
+ <img src="download.png"  alt="profile picture" width="100px">
+ <div class="bio">
+ <h2> NOOR </h2>
+ 
+ <p> A Web Developer </p>
+ </div>
+ </div>
+ <!--Skill section-->
+ <div class="skills">
+ <div class="skill">HMTL</div>
+ <div class="skill">CSS</div>
+ <div class="skill">Javascript</div>
+ <div class="skill">React</div>
+ </div>
+ <!--Projects Section-->
+ <div class="projects-section">
+ <div class="project-card">
+ <h3> Project 1</h3>
+ <p> A responsive e-commerce website.</p> 
+ </div>
+ <div class="Poject-card">
+ <h3> Project 2<h3>
+ <p> A social media app built with React.</p>
+ </div>
+ </body>
+ </html>
+ 
